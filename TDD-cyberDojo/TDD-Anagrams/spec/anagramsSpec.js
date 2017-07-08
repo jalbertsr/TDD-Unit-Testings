@@ -1,4 +1,4 @@
-describe("function fizzBuzz", function() {
+describe("function anagram", function() {
   it("should exist", function() {
     expect(anagram).toBeDefined();
   })
@@ -12,8 +12,10 @@ describe("function fizzBuzz", function() {
   })
 
   it("should return an array of strings", function() {
-
-    expect().toEqual()
+    var array = anagram("biro")
+    var type =  typeof array[15]
+    
+    expect(type).toEqual("string")
   })
 
   it("should return an array without numbers", function() {
