@@ -15,5 +15,8 @@ describe("function leapYear", function() {
     expect(leapYear(1996)).toBeTruthy();
   })
 
+  it("should return false for year 1997 ", function() {
+    expect(leapYear(1997)).toBeFalsy();
+  })
 
 })
